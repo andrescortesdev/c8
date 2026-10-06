@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUPO 3B RIWI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .git-ok:hover  {
+            animation: tada; 
+            animation-duration: .9s; 
+        }
+        .git-no:hover{
+            animation: wobble;
+            animation-duration: .9s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="./3b-qr.png" class="img-fluid"> 
+                <p class="text-center"><small>robinson.cortes@riwi.io</small></p>
+                
+            </div>   
+            <div class="col-md-6">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th>Nombres y Apellidos</th>
+                                <th>URL Github</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Julian Acero Usuga</td>
+                                <td>
+                                    <i class="fa-brands fa-github git-ok"></i> 
+                                    <a target="_blank" href="https://jusuga2001.github.io/RIWI/portafolio.html">
+                                        jusuga2001
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="comprar('subway',2000)">subwayyy</button>
+    <button onclick="comprar('arroz', 5000)">Arrrooooz</button>
+    <script>
+        function comprar(compra,precio){
+            alert(precio);
+        }
+    </script>
+</body>
+</html>
